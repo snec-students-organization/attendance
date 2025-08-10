@@ -100,7 +100,7 @@
 <body>
     <div class="dashboard-container">
         <div class="dashboard-header">
-            <h1><i class="fas fa-chalkboard-teacher me-2"></i>Principal Dashboard</h1>
+            <h1><i class="fas fa-chalkboard-teacher me-2"></i>Admin Dashboard</h1>
         </div>
         
         <nav class="dashboard-nav navbar navbar-expand-lg">
