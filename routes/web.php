@@ -3,8 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AttendanceController;
 
+
+
 Route::get('/', function () {
-    return redirect()->route('attendance.create');
+    return view('landing');
 });
 
 Route::get('/attendance/create', [AttendanceController::class, 'create'])->name('attendance.create');
