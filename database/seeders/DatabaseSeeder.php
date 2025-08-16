@@ -11,6 +11,7 @@ class DatabaseSeeder extends Seeder
         // Call your custom seeders here, for example:
         $this->call(SampleDataSeeder::class);
         $this->call(SubjectsTableSeeder::class);
+        $this->call(AdminUserSeeder::class);
     }
 }
 
