@@ -378,14 +378,35 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="/attendance/create">Attendance Portal</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.snec.in/">About Admissions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                   
-                </ul>
+    <li class="nav-item">
+        <a class="nav-link active" href="#home">Home</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#courses">Courses</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://www.snec.in/">About Admissions</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+    </li>
+    <!-- Dropdown Starts Here -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreDropdown">
+            <li><a class="dropdown-item" href="/attendance/create">Attendance Portal</a></li>
+            <li><a class="dropdown-item" href="/results">Fest Results</a></li>
+            
+        </ul>
+    </li>
+</ul>
+
             </div>
         </div>
     </nav>
